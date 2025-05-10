@@ -11,7 +11,7 @@ Esta aplicación permite realizar encuestas de forma clara y rápida. El usuario
 
 ## 🧩 Estructura del Proyecto
 
-\`\`\`
+```
 satisfaction-survey
 ├── index.html           # Página principal con la encuesta
 ├── css/
@@ -23,7 +23,7 @@ satisfaction-survey
 ├── assets/
 │   └── favicon.ico      # Ícono de la encuesta
 └── README.md            # Este archivo 😄
-\`\`\`
+```
 
 ## 🚀 Características
 
@@ -43,10 +43,10 @@ satisfaction-survey
 
 1. Clona este repositorio:
 
-\`\`\`bash
+```bash
 git clone https://github.com/TU_USUARIO/satisfaction-survey.git
 cd satisfaction-survey
-\`\`\`
+```
 
 2. Abre el archivo \`index.html\` en tu navegador.
 
@@ -70,9 +70,9 @@ Si tienes ideas, sugerencias o encuentras errores:
 - Abre un *issue* explicando el cambio.
 - Haz un *fork* del proyecto y crea tu rama:
 
-\`\`\`bash
+```bash
 git checkout -b mejora/funcionalidad
-\`\`\`
+```
 
 - Realiza tus cambios, haz commit y envía un *pull request*.
 

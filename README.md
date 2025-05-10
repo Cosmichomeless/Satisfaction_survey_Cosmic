@@ -1,46 +1,81 @@
-# Satisfaction Survey Project
 
-Este proyecto es una encuesta de satisfacción que permite a los usuarios calificar diferentes aspectos de una clase. La encuesta está dividida en dos vistas, cada una con varias preguntas que los usuarios deben responder.
+# 😊 Satisfaction Survey Project
 
-## Estructura del Proyecto
+Este proyecto es una **encuesta de satisfacción interactiva** diseñada para que los usuarios puedan calificar distintos aspectos de una clase o actividad. Se divide en **dos vistas** de preguntas y finaliza con un **gráfico visual** que resume las respuestas.
 
-El proyecto tiene la siguiente estructura de archivos:
+![Satisfaction Survey Banner](banner.png)
 
-```
+## 📄 Descripción
+
+Esta aplicación permite realizar encuestas de forma clara y rápida. El usuario responde a preguntas divididas en dos secciones, y al finalizar, podrá visualizar un gráfico de resultados. Está enfocada principalmente para evaluaciones en entornos educativos, talleres o actividades formativas.
+
+## 🧩 Estructura del Proyecto
+
+\`\`\`
 satisfaction-survey
-├── index.html          # Estructura HTML de la encuesta
-├── css
-│   └── styles.css     # Estilos CSS para la encuesta
-├── js
-│   ├── main.js        # Lógica principal de JavaScript
-│   ├── chart.js       # Creación y configuración del gráfico
-│   └── validation.js   # Funciones de validación
-├── assets
-│   └── favicon.ico     # Ícono de la aplicación
-└── README.md           # Documentación del proyecto
-```
+├── index.html           # Página principal con la encuesta
+├── css/
+│   └── styles.css       # Estilos visuales
+├── js/
+│   ├── main.js          # Lógica general de navegación y manejo de eventos
+│   ├── chart.js         # Generación del gráfico de resultados con Chart.js
+│   └── validation.js    # Validación de preguntas completadas
+├── assets/
+│   └── favicon.ico      # Ícono de la encuesta
+└── README.md            # Este archivo 😄
+\`\`\`
 
-## Instrucciones para Ejecutar la Encuesta
+## 🚀 Características
 
-1. **Clonar el Repositorio**: Clona este repositorio en tu máquina local.
-2. **Abrir el Archivo HTML**: Abre el archivo `index.html` en un navegador web.
-3. **Completar la Encuesta**: Sigue las instrucciones en pantalla para completar la encuesta.
-4. **Ver Resultados**: Al finalizar, podrás ver un gráfico que resume tus respuestas.
+- **Interfaz amigable**: Navegación sencilla entre vistas de preguntas.
+- **Validación automática**: No se puede avanzar hasta responder todas las preguntas.
+- **Visualización clara**: Los resultados se presentan en un gráfico dinámico.
+- **Almacenamiento local**: Las respuestas se guardan en el navegador del usuario.
 
-## Funcionalidad
+## 🔧 Tecnologías Utilizadas
 
-- **Navegación entre Vistas**: Los usuarios pueden navegar entre diferentes vistas de la encuesta.
-- **Validación de Respuestas**: Se asegura que todas las preguntas sean respondidas antes de avanzar.
-- **Almacenamiento Local**: Las respuestas se almacenan en el almacenamiento local del navegador.
-- **Visualización de Resultados**: Los resultados se muestran en un gráfico utilizando Chart.js.
+- **HTML5**: Estructura básica de la aplicación.
+- **CSS3**: Diseño visual moderno y responsivo.
+- **JavaScript**: Lógica de navegación, validación y almacenamiento.
+- **Chart.js**: Visualización de los resultados en forma de gráfico.
 
-## Tecnologías Utilizadas
+## 🌟 Cómo Usar
 
-- HTML
-- CSS
-- JavaScript
-- Chart.js
+1. Clona este repositorio:
 
-## Contribuciones
+\`\`\`bash
+git clone https://github.com/TU_USUARIO/satisfaction-survey.git
+cd satisfaction-survey
+\`\`\`
 
-Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor abre un issue o envía un pull request.
+2. Abre el archivo \`index.html\` en tu navegador.
+
+3. Completa todas las preguntas siguiendo las instrucciones.
+
+4. Al finalizar, verás un **gráfico** que resume tus respuestas.
+
+## 🎯 Futuras Mejoras
+
+- Permitir exportar los resultados en PDF.
+- Añadir múltiples tipos de preguntas (escala, texto, opciones múltiples).
+- Implementar un sistema para enviar respuestas al servidor o a Google Sheets.
+- Incluir temas de color personalizables para la encuesta.
+
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas!
+
+Si tienes ideas, sugerencias o encuentras errores:
+
+- Abre un *issue* explicando el cambio.
+- Haz un *fork* del proyecto y crea tu rama:
+
+\`\`\`bash
+git checkout -b mejora/funcionalidad
+\`\`\`
+
+- Realiza tus cambios, haz commit y envía un *pull request*.
+
+---
+
+© 2025 Satisfaction Survey Team. Proyecto educativo con fines de evaluación y aprendizaje.

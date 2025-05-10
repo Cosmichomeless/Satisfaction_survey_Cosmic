@@ -3,7 +3,7 @@
 
 Este proyecto es una **encuesta de satisfacción interactiva** diseñada para que los usuarios puedan calificar distintos aspectos de una clase o actividad. Se divide en **dos vistas** de preguntas y finaliza con un **gráfico visual** que resume las respuestas.
 
-![Satisfaction Survey Banner](banner.png)
+![Satisfaction Survey Banner](thumbnail.png)
 
 ## 📄 Descripción
 
@@ -44,7 +44,7 @@ satisfaction-survey
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/TU_USUARIO/satisfaction-survey.git
+git clone https://github.com/Cosmichomeless/Satisfaction_survey_Cosmic.git
 cd satisfaction-survey
 ```
 
